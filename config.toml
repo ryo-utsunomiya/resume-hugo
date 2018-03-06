@@ -1,8 +1,8 @@
 # Page settings
 
-baseurl = "http://example.org/"
+baseurl = "https://ryo-utsunomiya.github.io/"
 languageCode = "en-us"
-title = "John Doe Resume"
+title = "Ryo Utsunomiya Resume"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
@@ -30,9 +30,9 @@ disable404 = true
 
     # Profile section
     [params.profile]
-        name = "John Doe"
-        tagline = "Full Stack Developer"
-        avatar = "profile.png"
+        name = "Ryo Utsunomiya"
+        tagline = "Software Engineer"
+        avatar = "https://ja.gravatar.com/userimage/37823746/62fa022dde4718fca518e8b62d93a919.png"
 
     # Contact section
     [params.contact]
@@ -41,38 +41,38 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: millionsnowliving+githubio@gmail.com"
+        title = "millionsnowliving+githubio@gmail.com"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        url = "tel:+819082803521"
+        title = "+819082803521"
 
-        [[params.contact.list]]
-        class = "website"
-        icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
+        # [[params.contact.list]]
+        # class = "website"
+        # icon = "fa-globe"
+        # url = "//portfoliosite.com"
+        # title = "portfoliosite.com"
 
-        [[params.contact.list]]
-        class = "linkedin"
-        icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        # [[params.contact.list]]
+        # class = "linkedin"
+        # icon = "fa-linkedin"
+        # url = "//linkedin.com/in/johndoe"
+        # title = "linkedin.com/in/johndoe"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
+        url = "//github.com/ryo-utsunomiya"
+        title = "github.com/ryo-utsunomiya"
 
         [[params.contact.list]]
         class = "twitter"
         icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+        url = "//twitter.com/ryo511"
+        title = "@ryo511"
 
     # Education section
     [params.education]
@@ -80,14 +80,14 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "Not graduated"
+        college = "University of Tokyo"
+        dates = "2005 - 2008"
 
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "High School Graduate"
+        college = "Uwajima Higashi High School"
+        dates = "2000 - 2003"
 
     # Languages section
     [params.language]
@@ -95,30 +95,12 @@ disable404 = true
         title = "Languages"
 
         [[params.language.list]]
-        language = "English"
+        language = "Japanese"
         level = "Native"
 
         [[params.language.list]]
-        language = "French"
+        language = "English"
         level = "Professional"
-
-        [[params.language.list]]
-        language = "Russian"
-        level = "Professional"
-
-    # Interests section
-    [params.interests]
-        enable = true
-        title = "Interests"
-
-        [[params.interests.list]]
-        interest = "Climbing"
-
-        [[params.interests.list]]
-        interest = "Snowboarding"
-
-        [[params.interests.list]]
-        interest = "Cooking"
 
 # Main body sections
 
@@ -129,7 +111,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "I am a Software Engineer based in Tokyo, Japan. I developed several web applications with rich user inteface and robust architecture. My passion is to write simple, clean and maintainable software."
 
     # Experiences section
     [params.experiences]
@@ -138,54 +120,39 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "Frontend Engineer"
+        dates = "2017 - Present"
+        company = "Ikyu, Tokyo"
+        details = ""
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Software Engineer"
+        dates = "2013 - 2016"
+        company = "Asial, Tokyo"
+        details = ""
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Software Engineer"
+        dates = "2012 - 2013"
+        company = "Adglobe, Tokyo"
+        details = ""
 
     # Projects section
     [params.projects]
         enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+        intro = "My side projects are below:"
 
         [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        title = "Gutenberg Meetup"
+        url = ""
+        tagline = "A meetup specialized on Gutenberg."
 
         [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
-
-        [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
-
-        [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
-
-        [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
+        title = "Amazon Block"
+        url = ""
+        tagline = "A WordPress plugin for Gutenberg editor."
 
     # Skills section
     [params.skills]
@@ -193,29 +160,57 @@ disable404 = true
         icon = "fa-rocket"
         title = "Skills & Proficiency"
 
-        [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
-                
-        [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
+        # Languages
 
         [[params.skills.list]]
-        skill = "Angular"
-        level = "95%"
+        skill = "HTML5"
+        level = "100%"
 
         [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
+        skill = "CSS3"
+        level = "90%"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "75%"
+        skill = "JavaScript(ES.Next)"
+        level = "100%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
-        level = "60%"
+        skill = "PHP"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "C#"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "SQL"
+        level = "90%"
+
+        # Libraries
+
+        [[params.skills.list]]
+        skill = "React"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Vue.js"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "WordPress"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Symfony"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Laravel"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Linux"
+        level = "80%"
 
     # Footer section
 
@@ -227,4 +222,4 @@ disable404 = true
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = ""
+        copyright = "Ryo Utsunomiya"
