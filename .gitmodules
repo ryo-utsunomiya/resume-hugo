@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:ryo-utsunomiya/ryo-utsunomiya.github.io.git
+	branch = master
