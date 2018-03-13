@@ -32,7 +32,7 @@ disable404 = true
     [params.profile]
         name = "Ryo Utsunomiya"
         tagline = "Software Engineer"
-        avatar = "https://ja.gravatar.com/userimage/37823746/62fa022dde4718fca518e8b62d93a919.png"
+        avatar = "avatar.png"
 
     # Contact section
     [params.contact]
@@ -50,11 +50,11 @@ disable404 = true
         url = "tel:+819082803521"
         title = "+819082803521"
 
-        # [[params.contact.list]]
-        # class = "website"
-        # icon = "fa-globe"
-        # url = "//portfoliosite.com"
-        # title = "portfoliosite.com"
+        [[params.contact.list]]
+        class = "wordpress.org"
+        icon = "fa-globe"
+        url = "//profiles.wordpress.org/ryo511"
+        title = "wordpress.org"
 
         # [[params.contact.list]]
         # class = "linkedin"
@@ -80,7 +80,7 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "Not graduated"
+        degree = "No degree"
         college = "University of Tokyo"
         dates = "2005 - 2008"
 
@@ -111,7 +111,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "I am a Software Engineer based in Tokyo, Japan. I developed several web applications with rich user inteface and robust architecture. My passion is to write simple, clean and maintainable software."
+        summary = "I am a Software Engineer based in Tokyo, Japan. I developed many web applications with rich user intefaces and robust architectures. My passion is to write useful, simple and maintainable software."
 
     # Experiences section
     [params.experiences]
@@ -123,36 +123,36 @@ disable404 = true
         position = "Frontend Engineer"
         dates = "2017 - Present"
         company = "Ikyu, Tokyo"
-        details = ""
+        details = "Built new frontend infrastracture with Vue.js, made mobile friendly UIs, and contributed to user engagements. Also, made media site with WordPress."
 
         [[params.jobs.list]]
         position = "Software Engineer"
         dates = "2013 - 2016"
         company = "Asial, Tokyo"
-        details = ""
+        details = "Developed many web applications with PHP and JavaScript. Created RESTful APIs and Single Page Applications."
 
         [[params.jobs.list]]
         position = "Software Engineer"
         dates = "2012 - 2013"
         company = "Adglobe, Tokyo"
-        details = ""
+        details = "Developed a web-based game with PHP, JavaScript and Flash."
 
     # Projects section
     [params.projects]
         enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "My side projects are below:"
+        intro = "My recent side projects are below:"
 
         [[params.projects.list]]
         title = "Gutenberg Meetup"
-        url = ""
-        tagline = "A meetup specialized on Gutenberg."
+        url = "https://gutenberg.connpass.com/"
+        tagline = "A meetup specialized in Gutenberg and modern WordPress."
 
         [[params.projects.list]]
         title = "Amazon Block"
-        url = ""
-        tagline = "A WordPress plugin for Gutenberg editor."
+        url = "https://wordpress.org/plugins/add-amazon-block/"
+        tagline = "A WordPress plugin for Gutenberg editor, which helps to add amazon affiliate links."
 
     # Skills section
     [params.skills]
@@ -203,10 +203,6 @@ disable404 = true
         [[params.skills.list]]
         skill = "Symfony"
         level = "90%"
-
-        [[params.skills.list]]
-        skill = "Laravel"
-        level = "80%"
 
         [[params.skills.list]]
         skill = "Linux"
