@@ -32,7 +32,7 @@ disable404 = true
     [params.profile]
         name = "Ryo Utsunomiya"
         tagline = "Software Engineer"
-        avatar = "avatar.png"
+        avatar = "photo.jpeg"
 
     # Contact section
     [params.contact]
@@ -111,7 +111,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "I am a Software Engineer based in Tokyo, Japan. I developed many web applications with rich user intefaces and robust architectures. My passion is to write useful, simple and maintainable software."
+        summary = "I am a Software Engineer based in Tokyo, Japan. I developed many web applications with rich user interfaces and robust architectures. My passion is to write useful, simple and maintainable software."
 
     # Experiences section
     [params.experiences]
@@ -123,7 +123,7 @@ disable404 = true
         position = "Frontend Engineer"
         dates = "2017 - Present"
         company = "Ikyu, Tokyo"
-        details = "Built new frontend infrastracture with Vue.js, made mobile friendly UIs, and contributed to user engagements. Also, made media site with WordPress."
+        details = "Built new frontend infrastracture with Vue.js, developed mobile friendly UIs, and increased customer engagements. Also, made media site with WordPress."
 
         [[params.jobs.list]]
         position = "Software Engineer"
