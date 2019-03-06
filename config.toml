@@ -2,7 +2,7 @@
 
 baseurl = "https://ryo-utsunomiya.github.io/"
 languageCode = "en-us"
-title = "Ryo Utsunomiya Resume"
+title = "Resume - Ryo Utsunomiya"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
@@ -51,10 +51,10 @@ disable404 = true
         title = "+819082803521"
 
         [[params.contact.list]]
-        class = "wordpress.org"
-        icon = "fa-globe"
-        url = "//profiles.wordpress.org/ryo511"
-        title = "wordpress.org"
+        # class = "wordpress.org"
+        # icon = "fa-globe"
+        # url = "//profiles.wordpress.org/ryo511"
+        # title = "wordpress.org"
 
         # [[params.contact.list]]
         # class = "linkedin"
@@ -80,7 +80,7 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "No degree"
+        degree = "Dropout"
         college = "University of Tokyo"
         dates = "2005 - 2008"
 
@@ -100,7 +100,7 @@ disable404 = true
 
         [[params.language.list]]
         language = "English"
-        level = "Professional"
+        level = "Business"
 
 # Main body sections
 
@@ -111,7 +111,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "I am a Software Engineer based in Tokyo, Japan. I developed many web applications with rich user interfaces and robust architectures. My passion is to write useful, simple and maintainable software."
+        summary = "I am a Software Engineer based in Tokyo, Japan. I developed many web applications with rich user interfaces and robust architectures. My passion is to write useful, simple and maintainable software. Currently, I'm interested in web site performance and microservices."
 
     # Experiences section
     [params.experiences]
@@ -123,7 +123,7 @@ disable404 = true
         position = "Frontend Engineer"
         dates = "2017 - Present"
         company = "Ikyu, Tokyo"
-        details = "Built new frontend infrastracture with Vue.js, developed mobile friendly UIs, and increased customer engagements. Also, made media site with WordPress."
+        details = "Built new frontend infrastracture with Vue.js, developed mobile friendly UIs, and increased customer engagements. Optimzied web site performance up to 2x."
 
         [[params.jobs.list]]
         position = "Software Engineer"
@@ -141,18 +141,18 @@ disable404 = true
     [params.projects]
         enable = true
         icon = "fa-archive"
-        title = "Projects"
-        intro = "My recent side projects are below:"
+        title = "Publications"
+        intro = "My presentation slides and recent blog posts (in Japanese)"
 
         [[params.projects.list]]
-        title = "Gutenberg Meetup"
-        url = "https://gutenberg.connpass.com/"
-        tagline = "A meetup specialized in Gutenberg and modern WordPress."
+        title = "slides.com"
+        url = "https://slides.com/ryoutsunomiya/"
+        tagline = "My presentation slides about web site performance and WordPress related topics."
 
         [[params.projects.list]]
-        title = "Amazon Block"
-        url = "https://wordpress.org/plugins/add-amazon-block/"
-        tagline = "A WordPress plugin for Gutenberg editor, which helps to add amazon affiliate links."
+        title = "一休.com Developers Blog"
+        url = "hhttps://user-first.ikyu.co.jp/search?q=ryo-utsunomiya"
+        tagline = "My recent blog posts about web site performance and frontend architecture."
 
     # Skills section
     [params.skills]
@@ -171,8 +171,12 @@ disable404 = true
         level = "90%"
 
         [[params.skills.list]]
-        skill = "JavaScript(ES.Next)"
+        skill = "JavaScript"
         level = "100%"
+
+        [[params.skills.list]]
+        skill = "TypeScript"
+        level = "80%"
 
         [[params.skills.list]]
         skill = "PHP"
@@ -181,6 +185,10 @@ disable404 = true
         [[params.skills.list]]
         skill = "C#"
         level = "90%"
+
+        [[params.skills.list]]
+        skill = "Go"
+        level = "70%"
 
         [[params.skills.list]]
         skill = "SQL"
@@ -195,18 +203,6 @@ disable404 = true
         [[params.skills.list]]
         skill = "Vue.js"
         level = "100%"
-
-        [[params.skills.list]]
-        skill = "WordPress"
-        level = "80%"
-
-        [[params.skills.list]]
-        skill = "Symfony"
-        level = "90%"
-
-        [[params.skills.list]]
-        skill = "Linux"
-        level = "80%"
 
     # Footer section
 
